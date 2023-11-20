@@ -44,18 +44,20 @@
 }
 
 #menu .item a:hover{
-    color:#3b5998;
+    color:#111;
+    text-decoration: underline;
     
 }
 
 .bg{
     width: 100%;
-    background-image: url('assets/bg.jpg');
+    background-image: url('assets/bg1.jpg');
     height: 463px;
     margin-top: 40PX;
     padding: 0 133px;
     position: relative;
     display: flex;
+    
     
 }
 
@@ -67,11 +69,13 @@
 .bg .box-left h2{
     font-size: 45px;
     margin-top: 30px;
-    color:#fff;
+    color:#111;
 }
 
 .bg .box-left p{
-    color:#d0d0d0;
+    color: #111;;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .bg .box-left button{
@@ -98,50 +102,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.bg .box-right img {
-    margin: 0 10px;
-    animation :animation 3s infinite linear; 
-    border-radius: 25px;
-}
-
-.bg .box-right #img2{
-    width: 35%;
-}
-
-.bg .box-right #img3{
-    width: 35%;
-}
-.bg .box-right #img4{
-    width: 35%;
-
-}
-
-.bg .box-right img:nth-child(1)
-{
-    animation-delay: 0.5s;
-}
-.bg .box-right img:nth-child(2)
-{
-    
-    animation-delay: 1s;
-}
-
-
-@keyframes animation {
-    0%{
-        transform:translateY(0px);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-    
-}
-
-
 
 
 
@@ -219,6 +179,7 @@
     width: 100%;
     height: 320px;
     display: flex;
+    
 }
 
 #km .left, #km .right{
@@ -374,7 +335,64 @@
     height: 30px;
     font-size: 24px;
     color: black;
-  
+    text-decoration: none;
+     
+}
+
+#chungtoi{
+    text-align: center;
+    font-size: 33px;
+    padding: 3px;
     
 }
 
+#abs{
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center; 
+  }
+
+  #abs h2 {
+    color: #333;
+  }
+
+ #abs p {
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+  }
+
+  #abs .team-member {
+    width: 40%; 
+    margin-bottom: 1em;
+    margin: 4em;
+    box-sizing: border-box; 
+  }
+
+  #abs img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+  }
+
+  #abs .social2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 3px;
+    font-size: 24px;
+    color: black;
+    
+  }
+
+  #abs .social2 i{
+    margin: 15px;
+  }
